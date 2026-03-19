@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+  color: #222;
+  background-color: #ffffff;
+}
+
+.hero-section {
+  background: linear-gradient(135deg, #f7f7f7, #eef3f8);
+}
+
+.profile-img {
+  width: 240px;
+  height: 240px;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+.hero-card {
+  background-color: #ffffff;
+  border-radius: 22px;
+}
+
+.mini-title {
+  display: inline-block;
+  background-color: #e9ecef;
+  color: #333;
+  padding: 8px 14px;
+  border-radius: 30px;
+  font-size: 14px;
+}
+
+.section-title {
+  font-weight: 700;
+  margin-bottom: 35px;
+  position: relative;
+}
+
+.section-title::after {
+  content: "";
+  display: block;
+  width: 75px;
+  height: 3px;
+  background-color: #222;
+  margin: 10px auto 0;
+  border-radius: 20px;
+}
+
+.about-box {
+  border-radius: 20px;
+}
+
+.skill-card {
+  background-color: #fff;
+  border-radius: 18px;
+}
+
+.custom-badge {
+  background-color: #dee2e6;
+  color: #222;
+  padding: 8px 12px;
+  border-radius: 20px;
+}
+
+.card {
+  border-radius: 18px;
+}
+
+html {
+  scroll-padding-top: 80px;
+}                              
